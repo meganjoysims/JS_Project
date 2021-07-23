@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="EmployeeRecords.css">
+    <script src="data.js" type="text/javascript"></script>
+    <script src="project.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+    <h1>Employee Records</h1>
+
+
+    <h3>Add Employee Data:</h3>
+    
+    <form>
+    National Insurance:<input type="text" id="ninumber" class="textbox"><span style="color:red;visibility:hidden" id="error0"> Required</span><br>
+    Full Name:<input type="text" id="fullname" class="textbox"><span style="color:red;visibility:hidden" id="error1"> Required</span><br>
+    Phone Number:<input type="text" id="phone" class="textbox"><span style="color:red;visibility:hidden" id="error2"> Required</span><br>
+    Address:<input type="text" id="address" class="textbox"><span style="color:red;visibility:hidden" id="error3"> Required</span><br>
+    
+
+    <label for="department">Department:</label>
+    <select name="department" id="department" class="textbox">
+        
+        <option value="IT" id="IT">IT</option>
+        <option value="Sales" id="Sales">Sales</option>
+        <option value="HR" id="HR">HR</option>
+        
+    </select>
+
+    </form>
+
+   
+    <br>
+    <input onclick="addNewRecord()" type="button" class="button" value="Add New Record" />
+    <input onclick="showRecords(true)" type="button" class="button" value="Show Records" /><br>
+    <br>
+
+    <label for="department">Filter by department:</label>
+    <select name="department" id="departmentdrop" class="textbox">
+
+        <option value="IT" id="IT">IT</option>
+        <option value="Sales" id="Sales">Sales</option>
+        <option value="HR" id="HR">HR</option>
+
+
+    </select>
+
+    <input onclick="showRecords(false)" type="button" class="button" value="Filter Records" /><br>
+
+</html>

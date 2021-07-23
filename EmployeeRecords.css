@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    color:#646464;
+    background-color:#ecebebd3;
+  }
+  
+  h1 {
+    font-size:3em; 
+    font-weight: 300;
+    line-height:1em;
+    text-align: center;
+    color: #646464;
+  }
+
+  .textbox{
+    font-family: 'Open Sans', sans-serif;
+    color:#646464;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 0 auto;
+  }
+
+  #button{
+    font-family: 'Open Sans', sans-serif;
+    color:#646464;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 0 auto;
+  }
+
+  #button:active{
+    background: #adadad
+}
+
+  .button{
+    font-family: 'Open Sans', sans-serif;
+    color:#646464;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 0 auto;
+  }
+
+  .button:active{
+      background: #adadad
+  }
+
+  table{
+    border-radius: 16px;
+    border: 1px solid;
+    border-collapse: collapse;
+    width:180px;
+    table-layout: auto; width:100%
+  }
+
+  th{
+    background-color: #c21010;
+  }
+
+  tr:nth-child(even){
+      background-color: rgb(252, 252, 252);
+      
+  }
